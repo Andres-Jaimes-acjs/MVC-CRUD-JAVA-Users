@@ -1,0 +1,11 @@
+# Evitar subir carpetas de compilación
+target/
+build/
+
+# EVITAR SUBIR CREDENCIALES
+.env
+
+# Archivos de configuración de NetBeans
+nbproject/
+nb-configuration.xml
+nbactions.xml
