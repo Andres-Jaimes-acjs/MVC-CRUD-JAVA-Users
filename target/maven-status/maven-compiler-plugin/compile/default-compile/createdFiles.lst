@@ -3,5 +3,6 @@ com\mycompany\usermvc\Main.class
 com\mycompany\usermvc\VistaUser$1.class
 com\mycompany\usermvc\User.class
 com\mycompany\usermvc\VistaUser.class
+com\mycompany\usermvc\UserControler$1.class
 com\mycompany\usermvc\ConexionMySQL.class
 com\mycompany\usermvc\UserControler.class
