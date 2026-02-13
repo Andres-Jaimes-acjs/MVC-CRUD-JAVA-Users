@@ -44,7 +44,7 @@ VALUES
 
 -- 4. Verificar la inserción
 SELECT * FROM Users_T;
-
+```
 ## 🔐 Configuración de Variables de Entorno
 
 Para proteger las credenciales de la base de datos, este proyecto utiliza variables de entorno. Crea un archivo `.env` en la raíz de tu proyecto o configúralas en tu sistema operativo:
@@ -53,7 +53,7 @@ Para proteger las credenciales de la base de datos, este proyecto utiliza variab
 DB_URL=jdbc:mysql://localhost:3306/Users
 DB_USER=tu_usuario
 DB_PASSWORD=tu_contraseña
-
+```
 ## 🔌 Conectividad con Base de Datos (JDBC)
 
 Para que Java pueda comunicarse con MySQL, se requiere de un "traductor" llamado **JDBC Driver (Java Database Connectivity)**. Este actúa como un puente entre el código de la aplicación y el motor de la base de datos.
@@ -72,3 +72,4 @@ En este proyecto utilizamos **Maven** para gestionar las librerías. La siguient
         <version>8.0.33</version>
     </dependency>
 </dependencies>
+```
