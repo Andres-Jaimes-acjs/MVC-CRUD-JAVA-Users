@@ -53,3 +53,22 @@ Para proteger las credenciales de la base de datos, este proyecto utiliza variab
 DB_URL=jdbc:mysql://localhost:3306/Users
 DB_USER=tu_usuario
 DB_PASSWORD=tu_contraseña
+
+## 🔌 Conectividad con Base de Datos (JDBC)
+
+Para que Java pueda comunicarse con MySQL, se requiere de un "traductor" llamado **JDBC Driver (Java Database Connectivity)**. Este actúa como un puente entre el código de la aplicación y el motor de la base de datos.
+
+
+
+### 📦 Gestión de Dependencias (Maven)
+
+En este proyecto utilizamos **Maven** para gestionar las librerías. La siguiente dependencia en el archivo `pom.xml` permite descargar e instalar automáticamente el conector de MySQL:
+
+```xml
+<dependencies>
+    <dependency>
+        <groupId>mysql</groupId>
+        <artifactId>mysql-connector-java</artifactId>
+        <version>8.0.33</version>
+    </dependency>
+</dependencies>
